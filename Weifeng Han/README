@@ -1,0 +1,9 @@
+Uniquify - finished
+Remove-complex-opera* - finished
+Explicit control - finished but not stress-tested
+Select instruction - finished but not stress-tested
+Assign home - finished but not stress-tested
+patch instruction - finished but not stress-tested
+prelude and conclusion - the only thing left over
+
+By saying not stress-tested, they have past the var_tests but there can still be something wrong.

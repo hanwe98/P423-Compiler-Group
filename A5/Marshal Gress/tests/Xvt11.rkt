@@ -1,0 +1,10 @@
+;#lang racket
+;(require "../utilities.rkt")
+(let ([i 1])
+  (let ([sum 0])
+    (let ([v (vector 0 0 0 0 0)])
+      (begin (while (<= i 5)
+                    (begin (set! sum (+ sum i))
+                           (vector-set! v (- i 1) sum)
+                           (set! i (+ i 1))))
+             (vector-ref v 4)))))

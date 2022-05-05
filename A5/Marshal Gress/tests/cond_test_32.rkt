@@ -1,0 +1,7 @@
+;#lang racket
+(let ([a 1])
+  (let ([b 2])
+    (let ([x (if (eq? (read) 0)
+                 (- a)
+                 b)])
+      (+ x 10))))

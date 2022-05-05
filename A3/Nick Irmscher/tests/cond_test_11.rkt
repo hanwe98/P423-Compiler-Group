@@ -1,0 +1,5 @@
+(let ([x 1])
+  (let ([y 2])
+    (if (< x y)
+        (not (not 1))
+        (not 1))))
